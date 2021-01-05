@@ -1,0 +1,26 @@
+<div class="row ">
+    <div class="col-3  ">
+        <div class="row">
+            <div class="perfil marco col-11 ">
+                <h3>Tarea</h3>
+                <nav>
+                    <button><a routerLink="./suma" routerLinkActive="active">Suma</a></button>
+                    <button><a routerLink="./resta" routerLinkActive="active">resta</a></button>
+                    <button><a routerLink="./mensaje">Mensaje</a></button>
+
+                </nav>
+
+            </div>
+
+        </div>
+
+    </div>
+
+    <div class="col-9">
+        <div class="sombra" id="pizarra">
+            <div [@routeAnimations]="prepareRoute(outlet)">
+                <router-outlet #outlet="outlet"></router-outlet>
+            </div>
+        </div>
+    </div>
+</div>
