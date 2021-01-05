@@ -7,7 +7,7 @@ import { trigger, transition, state, animate, style, AnimationEvent } from '@ang
   templateUrl: './open-close.component.html',
   styleUrls: ['./open-close.component.css']
 })
-export class OpenCloseComponent {
+export class NameFormComponent {
 
 
 

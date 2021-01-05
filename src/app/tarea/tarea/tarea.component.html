@@ -1,0 +1,9 @@
+<p>tarea works!</p>
+<ul>
+    <li><a id="suma" routerLink="./suma">Suma></a></li>
+    <li><a id="resta" routerLink="./resta">Resta</a></li>
+    <li><a id="mensaje" routerLink="./mensaje">Mensaje</a></li>
+</ul>
+<div [@routeAnimations]="prepareRoute(outlet)">
+    <router-outlet #outlet="outlet"></router-outlet>
+</div>
