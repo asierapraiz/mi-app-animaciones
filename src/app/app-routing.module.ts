@@ -1,6 +1,5 @@
 import { NgModule } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
-import { OpenCloseComponent } from './open-close/open-close.component';
 import { FilterPageComponent } from './filter-page/filter-page.component';
 import { OtherComponent } from './other/other.component';
 import { LandingComponent } from './landing/landing.component';
